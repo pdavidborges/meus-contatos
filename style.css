@@ -1,0 +1,85 @@
+/*
+SELETOR{
+    PROPRIEDADE: VALOR;
+}
+*/
+
+body{                      
+    background-color: #222831;
+    font-family: "Roboto", sans-serif;
+    margin: 0; /*eliminando a margem padrão do body*/
+}
+
+.principal{
+    background-color: #ffffff;
+    width: 340px; /*largura*/
+    height: 501px; /*altura*/    
+    text-align: center; /*alinhamento do texto*/
+    margin-top: 35px;
+    /*Centraliza a div horizontalmente*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px; /*espaçamento interno*/
+    border-radius: 10px; /*arredondamento de cantos*/
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;        
+    border: solid 5px #222831;
+
+    /*
+    border-color: #222831;
+    border-width: 5px;
+    border-style: solid;
+    */
+}
+
+h1{     
+    margin: 30px 0 0 0; /*top right bottom left*/
+    color: #393E46;
+    font-size: 32px;
+    /*text-shadow: 0px 0px 3px #000; /*horizontal, vertical, suavidade e cor*/
+}
+
+h2{
+    margin: 0;
+    color: #222831;
+    font-size: 20px;
+}
+
+/*div menu*/
+.menu{
+    margin-top: 30px;    
+}
+
+
+/*formatando TODOS os links do MENU*/
+.menu a{
+    display: block;
+    margin-bottom: 3px;
+    background-color: #393E46;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none; /*retira o sublinhado*/
+    border-radius: 3px;
+}
+
+/*ao passar o mouse*/
+.menu a:hover{
+    background-color: black;   
+}
+
+/*link da coti */
+.coti{
+    /*Quando o elemento é "inline" ele não aceita margens verticais nem largura/altura*/
+    color: #222831;        
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.coti:hover{
+    color: black;
+    font-style: italic;
+}
